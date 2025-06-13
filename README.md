@@ -1,4 +1,4 @@
-# Progetto finale LPO a.a. 2023-'24
+# Progetto finale LPO a.a. 2023-2024
 Il progetto finale consiste nell'implementazione di un'estensione del linguaggio sviluppato durante gli ultimi laboratori Java;
 può quindi essere usata come base di partenza la soluzione proposta per l'ultimo laboratorio.
 È comunque richiesto che le implementazioni della semantica statica e dinamica siano basate sul visitor pattern.
@@ -140,18 +140,5 @@ con chiavi di tipo `int` e valori di tipo `value`.
 * `tests/failure/static-semantics-only`: test con errori statici **senza** l'opzione `-ntc` e corretti con l'opzione `-ntc`
 * `tests/failure/dynamic-semantics`: test che generano errori dinamici **con** o **senza** l'opzione `-ntc`
 
-## Modalità di consegna
-
-- La consegna è valida solo se il **progetto passa tutti i test** contenuti nel folder `tests`; la valutazione del progetto tiene conto dell'esecuzione di test aggiuntivi e della qualità del codice
-- È possibile consegnare il progetto alcuni giorni prima delle date delle prove scritte.
-  Il calendario delle scadenze per le consegne è: **17 giugno**, **12 luglio**, **6 settembre**, **10 gennaio** e **31 gennaio**.
-
-  Dopo ogni scadenza, vengono corretti tutti i progetti consegnati e pubblicati i relativi risultati prima che le consegne siano riaperte.
-
-  **Dopo l'ultima scadenza del 31 gennaio non sarà più possibile consegnare progetti validi per l'anno accademico in corso**
-- Il progetto può essere consegnato anche se l'esame scritto non è stato ancora superato
-- Dopo il commit (e push) finale del progetto su GitHub, la consegna va segnalata da **un singolo componente del gruppo** utilizzando [AulaWeb](https://2023.aulaweb.unige.it/course/view.php?id=6694) e indicando **il numero del gruppo** definito nell'[elenco su AulaWeb](https://2023.aulaweb.unige.it/mod/wiki/view.php?id=68156)
-- Per ricevere supporto durante lo sviluppo del progetto è consigliabile tenere sempre aggiornato il codice del progetto sul repository GitHub  
-- Dopo che il progetto è stato valutato positivamente, il relativo colloquio **individuale** può essere sostenuto  anche se l'esame scritto non è stato ancora superato; esso ha lo scopo di verificare che ogni componente del gruppo abbia compreso il funzionamento del codice e abbia contribuito attivamente al suo sviluppo
-- L'**OpenBadge Soft skills - Sociale base 1 - A** verrà assegnato ai componenti del gruppo solo se **tutti** avranno superato positivamente (ossia senza decremento del punteggio) il colloquio individuale
-- Per ulteriori informazioni consultare la [pagina AulaWeb sulle modalità di esame](https://2023.aulaweb.unige.it/mod/page/view.php?id=68149)
+### Come compilare:
+bash script.sh -c
