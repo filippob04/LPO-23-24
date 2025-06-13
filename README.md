@@ -9,6 +9,10 @@
 - [Baldini Filippo - 6393212](6393212@studenti.unige.it)
 - [Giacomo Cerlesi - 6364436](6364436@studenti.unige.it)
 
+## How to compile:
+```text
+bash script.sh -c
+```
 ### 🗓️ 14/05/2025
 #### 📝 Grammatica del Linguaggio 
 
