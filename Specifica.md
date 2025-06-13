@@ -139,6 +139,3 @@ con chiavi di tipo `int` e valori di tipo `value`.
 * `tests/failure/static-semantics`: test con errori statici **senza** l'opzione `-ntc` ed errori dinamici **con** l'opzione `-ntc`
 * `tests/failure/static-semantics-only`: test con errori statici **senza** l'opzione `-ntc` e corretti con l'opzione `-ntc`
 * `tests/failure/dynamic-semantics`: test che generano errori dinamici **con** o **senza** l'opzione `-ntc`
-
-### Come compilare:
-bash script.sh -c
