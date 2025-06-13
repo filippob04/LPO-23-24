@@ -1,0 +1,6 @@
+var d = [1:10];
+var s = [2:d];
+print s[2] // == 10 errore causato da una get (manca [1] dopo d)
+
+// Static error: Found INT, expected INT DICT
+// with -ntc enabled: [1:10] 

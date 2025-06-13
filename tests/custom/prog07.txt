@@ -1,0 +1,4 @@
+var d = [2:4];
+var s = [2:d[2]]; // crea un nuovo dizionario s con i valori di d
+print s[2] == 4
+

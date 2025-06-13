@@ -1,0 +1,16 @@
+// for(var p of [3:5][2:4][1:3]){print p} // prints for cycle
+
+var d = [1:2][2:3][3:4][4:5][5:6][6:7];
+
+// Funzione Sum array
+var sum = 0;
+for(var i of d){
+    sum = sum + snd i
+};
+
+if(!(sum == 0)){
+    print sum
+} else{
+    print 0
+}
+

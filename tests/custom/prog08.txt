@@ -1,0 +1,8 @@
+var d1 = [2:20];
+var d2 = [3:30];
+
+var m1 = [0:d1];    // metti l’intero dizionario come valore
+var m2 = [0:d2];
+
+print m1[0] == [2:20] && m2[0] == [3:30] // true
+

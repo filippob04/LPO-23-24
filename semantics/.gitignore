@@ -1,0 +1,5 @@
+obj/
+bin/
+.fake
+DS_Store
+temp

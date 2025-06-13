@@ -1,0 +1,5 @@
+DS_Store
+bin/
+.DS_Store
+tests/.DS_Store
+temp

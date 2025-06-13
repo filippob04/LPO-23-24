@@ -1,0 +1,9 @@
+// print [1:[2:3]][1][2]==3 // true
+
+var dict = 0;
+for(var i of dict){
+    print i
+}
+
+// Static error: Found INT , expected DICT
+// with -ntc enabled: Dynamic error: expected a dictionary in 'for' loop.

@@ -1,0 +1,6 @@
+print [true:1][true] == 1 
+
+// Static error: Found  BOOL, expected INT
+// with -ntc enabled: Dynamic error: dict keys must be integers
+
+

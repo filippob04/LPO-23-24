@@ -1,0 +1,15 @@
+// print [0:1][1:true][1] // stampa true se eseguito con -ntc
+
+// Sequenza di Fibonacci
+var a = 0;
+var b = 1;
+var n = [1:0][2:0][3:0][4:0][5:0][6:0][7:0][8:0][9:0][10:0]; // Definiamo un iterable con una size fittizzia
+
+for(var i of n){
+    print a;
+
+    var next = a + b;
+    a = b;
+    b = next
+}
+
