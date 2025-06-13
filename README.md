@@ -10,7 +10,7 @@
 - [Giacomo Cerlesi - 6364436](6364436@studenti.unige.it)
 
 ### ⚙️ Come Eseguire:
-```text
+```bash
 bash script.sh -c
 ```
 ### 🗓️ 14/05/2025
